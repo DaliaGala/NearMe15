@@ -5,7 +5,6 @@ import plotly.express as px
 # Page setup
 st.set_page_config(page_title="NearMe15: Reachability Impact Animation", layout="wide")
 
-st.title("NearMe15: How 15 minutes is your city?")
 st.header("📉 Public Transport Reachability Decline Across UK Cities")
 
 st.write(
