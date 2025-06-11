@@ -1,1 +1,72 @@
-Machine learning requires defining one's target variable, a process that can have profound implications on fairness. We developed FairTargetSim (FTS), an interactive simulator that educates non-technical stakeholders on target variable definition, and illustrate its implications on fairness for all stakeholders. FTS works with a case study, hiring algorithms---using real-world data and user-defined target variables.
+# NearMe15 – Public Transport Reachability Visualizer
+
+**NearMe15** is a Streamlit-based web app created during the public sector Hackathon in Edinburgh on 11.06.2025 that visualizes the impact of night-time public transport service reductions across major UK cities. It uses data from a study by the University of Bristol’s Centre for Urban Science and Data (UBDC) to highlight how urban reachability has declined — and why tools like NearMe15 are essential for helping people stay mobile.
+
+## 📊 What It Does
+
+This app presents an **animated bar chart** showing the decline in reachability — the percentage of destinations reachable by public transport within 150 minutes at night — for 24 major UK cities. Each bar animates from 100% (pre-reduction) to its current value based on the study’s findings.
+
+Cities like **Glasgow** and **Edinburgh** are highlighted in red to represent areas with more moderate declines, while others like **Leicester**, **Nottingham**, and **Sheffield** show much sharper drops in accessibility.
+
+## 📈 Why It Matters
+
+A study published by the [University of Bristol’s UBDC](https://www.ubdc.ac.uk/news/unveiling-the-variability-in-public-transport-services-across-great-britain) uncovered major reductions in public transport services across the UK:
+
+* Some zones in English cities have lost **50–75%** of their reachable destinations.
+* Cities like **Leicester** saw up to **67%** reductions.
+* Only **Greater London** and **Greater Glasgow** maintained relatively stable access (≤25% reduction).
+
+These reductions have serious implications for work, safety, and social connection — especially at night.
+
+## 🧠 The Motivation Behind NearMe15
+
+**NearMe15** is more than a data visualization tool — it's part of a larger vision. The NearMe15 platform aims to help people find reliable, accessible destinations within 15 minutes of their location, based on live and historical transport data. This animated chart is just the first step in making public transport data more transparent and actionable.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+* Python 3.8+
+* `streamlit`
+* `pandas`
+* `plotly`
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/nearme15-reachability.git
+cd nearme15-reachability
+pip install -r requirements.txt
+```
+
+### Running the App
+
+```bash
+streamlit run app.py
+```
+
+## 📁 File Structure
+
+```
+nearme15-reachability/
+├── app.py              # Main Streamlit app
+├── requirements.txt    # Dependencies
+└── README.md           # This file
+```
+
+## 📚 Data Source
+
+**Source:** University of Bristol, Centre for Urban Science and Data
+🔗 [Unveiling the Variability in Public Transport Services Across Great Britain](https://www.ubdc.ac.uk/news/unveiling-the-variability-in-public-transport-services-across-great-britain)
+
+## 🛠️ Next Steps
+
+* Add live data integrations for route planning
+* Implement geolocation-based suggestions
+* Expand to more cities and time periods
+* Integrate user feedback for accessibility improvements
+
+## 🧑‍💻 Contributing
+
+Want to help make NearMe15 smarter or expand its reach? Pull requests are welcome! Feel free to fork this repo and improve it.
+
