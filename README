@@ -1,7 +1,46 @@
-NearMe15 is a prototype web application developed during a public sector hackathon. It helps users understand how "15-minute" their city is by showing what services are available within a short distance of a postcode.
+# 🗺️ NearMe15
 
-The app includes a postcode lookup feature that displays nearby services such as schools, GP surgeries, and sports facilities. It also demonstrates how transport access could be visualized, using public data as an example on the home page.
+**NearMe15** is a prototype **Streamlit application** developed during the **Snowflake x Catalyst Public Service Hackathon** in Edinburgh on **11 June 2025**.
 
-Additional features include a sample pie chart showing how local crime reporting might be presented, and an example of how school rankings could be displayed to support informed decision-making.
+The app helps users assess how "15-minute" their city is—i.e., how many essential services are reachable within a short distance of a given postcode.
 
-NearMe15 is an early-stage MVP designed to show how local data can be combined into a single, user-friendly view of neighbourhood accessibility and public service reachability.
+---
+
+## 👥 Team A_TEAM – Hackathon Team 1
+
+Developed by an interdisciplinary group passionate about improving access to local services:
+
+- **Dalia Gala**  
+- **Jack Gilmore**  
+- **Ihsan Kerr**  
+- **Lindsay Purves**
+
+---
+
+## 🧭 Features
+
+- **Postcode Lookup**  
+  Enter a UK postcode to explore nearby services.
+
+- **Service Availability Visualisation**  
+  - Schools  
+  - GP surgeries  
+  - Sports and leisure facilities
+
+- **Transport Accessibility**  
+  Visual example of public transport access using open data.
+
+- **Crime Insights**  
+  A sample pie chart illustrating local crime distribution.
+
+- **School Rankings**  
+  Demonstrates how school performance data might be displayed to support decision-making.
+
+---
+
+## 💡 Purpose
+
+**NearMe15** is an early-stage MVP showing how **local public data** can be integrated into a single, user-friendly view.  
+It aims to improve public awareness of **neighbourhood accessibility** and **public service reachability**.
+
+---
