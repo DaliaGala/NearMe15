@@ -44,7 +44,3 @@ Developed by an interdisciplinary group passionate about improving access to loc
 It aims to improve public awareness of **neighbourhood accessibility** and **public service reachability**.
 
 ---
-
-## 🚧 Project Status
-
-Prototype / MVP – actively developed and open to feedback.
