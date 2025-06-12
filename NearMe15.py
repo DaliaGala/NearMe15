@@ -13,6 +13,13 @@ st.image("images/hack_edinburgh_11062025.jpg", caption="Group photo of the hacka
 
 st.markdown("📉 Public Transport Reachability Decline Across UK Cities")
 
+st.write("""
+
+    Recent research from the University of Bristol shows significant reductions in public transport reachability in many UK cities. This animated **bar chart** visualizes the decline in reachable destinations by city, showing the drop from 100% (pre-reduction) to current reported values.  
+    Cities **Glasgow** and **Edinburgh** are highlighted in red to showcase comparatively moderate declines.
+    
+    """)
+
 # Final values after decline (percentage of reachable destinations remaining)
 data = {
     "CITY": [
@@ -82,10 +89,7 @@ st.markdown(
 )
 
 st.write(
-    """
-    Recent research from the University of Bristol shows significant reductions in public transport reachability in many UK cities. This animated **bar chart** visualizes the decline in reachable destinations by city, showing the drop from 100% (pre-reduction) to current reported values.  
-    Cities **Glasgow** and **Edinburgh** are highlighted in red to showcase comparatively moderate declines.  
-    
-    We can use this visualisation to understand how public transport accessibility changes from day to night and how that might impact people living in big cities. Motivated by these observations, for our hackathon project, we wanted to create a prototype of an app which helps users assess how "15-minute" their city is—i.e., how many essential services are reachable within a short distance of a given postcode. NearMe15 is an early-stage MVP showing how local public data can be integrated into a single, user-friendly view. If developed further and deployed, it could aim to improve public awareness of neighbourhood accessibility and public service reachability as well as enable local authorities to focus their resources and improvement efforts where those are needed most..
+    """    
+    We can use visualisations like this one to understand how public transport accessibility changes from day to night and how that might impact people living in big cities. Motivated by these observations, for our hackathon project, we wanted to create a prototype of an app which helps users assess how "15-minute" their city is—i.e., how many essential services are reachable within a short distance of a given postcode. NearMe15 is an early-stage MVP showing how local public data can be integrated into a single, user-friendly view. If developed further and deployed, it could aim to improve public awareness of neighbourhood accessibility and public service reachability as well as enable local authorities to focus their resources and improvement efforts where those are needed most..
     """
 )
