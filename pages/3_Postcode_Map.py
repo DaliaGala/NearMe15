@@ -1,18 +1,13 @@
 import streamlit as st
 import requests
 import plotly.graph_objects as go
+import pandas as pd
 
 st.title("Mapbox API call to present 15 minutes commutability!")
 
 def update_map(postcode):
-    session = st.connection('snowflake').session()
-    
-    query = f"""
-        select top 1 LAT, LON
-        from residential_postcodes.geolocal.geolocal_residential_postcode
-        where PCD2 = '{postcode}'
-    """
-    result_df = session.sql(query).to_pandas()
+    postcode_df = pd.read_csv("data/postcodes.csv")
+    result_df = postcode_df[postcode_df['PCD2'] == postcode]
     
     if not result_df.empty:
         coordinateslookup = str(result_df.iloc[0]['LON']) + ',' + str(result_df.iloc[0]['LAT'])
