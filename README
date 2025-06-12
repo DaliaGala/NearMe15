@@ -1,8 +1,46 @@
-NearMe15 is a prototype Streamlit application developed by Team 1, or A_TEAM during the Snowflake and Catalyst Public Service Hackathon in Edinburgh on 11.06.2025. 
-Team 1 members were Dalia Gala, Jack Gilmore, Ihsan Kerr, Lindsay Purves. The app helps users understand how "15-minute" their city is by showing what services are available within a short distance of a postcode.
+# 🗺️ NearMe15
 
-The app includes a postcode lookup feature that displays nearby services such as schools, GP surgeries, and sports facilities. It also demonstrates how transport access could be visualized, using public data as an example on the home page.
+**NearMe15** is a prototype **Streamlit application** developed during the **Snowflake x Catalyst Public Service Hackathon** in Edinburgh on **11 June 2025**.
 
-Additional features include a sample pie chart showing how local crime reporting might be presented, and an example of how school rankings could be displayed to support informed decision-making.
+The app helps users assess how "15-minute" their city is—i.e., how many essential services are reachable within a short distance of a given postcode.
 
-NearMe15 is an early-stage MVP designed to show how local data can be combined into a single, user-friendly view of neighbourhood accessibility and public service reachability.
+---
+
+## 👥 Team A\_TEAM – Hackathon Team 1
+
+> Developed by an interdisciplinary group passionate about improving access to local services:
+
+* **Dalia Gala**
+* **Jack Gilmore**
+* **Ihsan Kerr**
+* **Lindsay Purves**
+
+---
+
+## 🧭 What NearMe15 Does
+
+* **Postcode Lookup**
+  Input a UK postcode to explore nearby services.
+
+* **Service Availability Visualisation**
+
+  * Schools
+  * GP surgeries
+  * Sports and leisure facilities
+
+* **Transport Accessibility (Example)**
+  Visual examples using public transport data on the homepage.
+
+* **Crime Insights**
+  Sample pie chart showing local crime reporting distribution.
+
+* **School Rankings**
+  Demonstration of how local school performance data could be presented.
+
+---
+
+## 🧪 Why It Matters
+
+NearMe15 is an **early-stage MVP** exploring how **local data** can be combined into a single, intuitive interface. It helps users understand their neighbourhood’s **accessibility** and the **reach of public services**, supporting more informed civic and personal decisions.
+
+---
