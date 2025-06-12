@@ -1,4 +1,5 @@
-NearMe15 is a prototype web application developed during a public sector hackathon. It helps users understand how "15-minute" their city is by showing what services are available within a short distance of a postcode.
+NearMe15 is a prototype Streamlit application developed by Team 1, or A_TEAM during the Snowflake and Catalyst Public Service Hackathon in Edinburgh on 11.06.2025. 
+Team 1 members were Dalia Gala, Jack Gilmore, Ihsan Kerr, Lindsay Purves. The app helps users understand how "15-minute" their city is by showing what services are available within a short distance of a postcode.
 
 The app includes a postcode lookup feature that displays nearby services such as schools, GP surgeries, and sports facilities. It also demonstrates how transport access could be visualized, using public data as an example on the home page.
 
