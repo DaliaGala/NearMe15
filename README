@@ -6,41 +6,45 @@ The app helps users assess how "15-minute" their city is—i.e., how many essent
 
 ---
 
-## 👥 Team A\_TEAM – Hackathon Team 1
+## 👥 Team A_TEAM – Hackathon Team 1
 
-> Developed by an interdisciplinary group passionate about improving access to local services:
+Developed by an interdisciplinary group passionate about improving access to local services:
 
-* **Dalia Gala**
-* **Jack Gilmore**
-* **Ihsan Kerr**
-* **Lindsay Purves**
-
----
-
-## 🧭 What NearMe15 Does
-
-* **Postcode Lookup**
-  Input a UK postcode to explore nearby services.
-
-* **Service Availability Visualisation**
-
-  * Schools
-  * GP surgeries
-  * Sports and leisure facilities
-
-* **Transport Accessibility (Example)**
-  Visual examples using public transport data on the homepage.
-
-* **Crime Insights**
-  Sample pie chart showing local crime reporting distribution.
-
-* **School Rankings**
-  Demonstration of how local school performance data could be presented.
+- **Dalia Gala**  
+- **Jack Gilmore**  
+- **Ihsan Kerr**  
+- **Lindsay Purves**
 
 ---
 
-## 🧪 Why It Matters
+## 🧭 Features
 
-NearMe15 is an **early-stage MVP** exploring how **local data** can be combined into a single, intuitive interface. It helps users understand their neighbourhood’s **accessibility** and the **reach of public services**, supporting more informed civic and personal decisions.
+- **Postcode Lookup**  
+  Enter a UK postcode to explore nearby services.
+
+- **Service Availability Visualisation**  
+  - Schools  
+  - GP surgeries  
+  - Sports and leisure facilities
+
+- **Transport Accessibility**  
+  Visual example of public transport access using open data.
+
+- **Crime Insights**  
+  A sample pie chart illustrating local crime distribution.
+
+- **School Rankings**  
+  Demonstrates how school performance data might be displayed to support decision-making.
 
 ---
+
+## 💡 Purpose
+
+**NearMe15** is an early-stage MVP showing how **local public data** can be integrated into a single, user-friendly view.  
+It aims to improve public awareness of **neighbourhood accessibility** and **public service reachability**.
+
+---
+
+## 🚧 Project Status
+
+Prototype / MVP – actively developed and open to feedback.
