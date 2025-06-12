@@ -14,7 +14,6 @@ if normalized_school_postcode:
 
     if not highschools_df.empty:
         st.success(f"Found {len(highschools_df)} highschool(s) in this postcode.")
-        st.dataframe(highschools_df)
         ranking_cols = ["FY2016", "FY2017", "FY2018", "FY2019", "FY2020", "FY2021", "FY2022"]
         ranking_data = highschools_df[["SCHOOLNAME"] + ranking_cols]
 
